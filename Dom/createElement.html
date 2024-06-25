@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pClass{
+            color:cornflowerblue;
+            font-size: smaller;
+            transition-duration: 0.4s;
+            transition-property:all;
+            transition-delay: 0ms;
+            transition-timing-function: ease-in-out;
+        }
+        .pClass:hover{
+            transform:rotate(360deg);
+            font-size: large;
+        }
+        #pokemonImg{
+            animation-name: pokemon;
+            animation-duration: 1s;
+            animation-timing-function:linear;
+            animation-delay: 0ms;
+            animation-iteration-count: infinite;
+            
+
+        }
+        @keyframes pokemon {
+            50%{
+                transform: rotate(90deg);
+            }
+            100%{
+                transform: rotate(-90deg);
+            }
+           
+        }
+        .pokemon p {
+
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script src="createElement.js" defer></script>
+</head>
+<body>
+    <h1>document.createElement</h1>
+    <div class="pokemon">
+        <img id="pokemonImg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="" title="1">
+        <p>1</p>
+    </div>
+</body>
+</html>

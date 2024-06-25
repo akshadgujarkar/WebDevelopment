@@ -1,0 +1,22 @@
+h1{
+    color: #040504;
+    background-color: aqua;
+    border-radius: 25px;
+    padding-bottom: 35px;
+    color:black;
+    padding-left: 50px;
+    padding-top: 50px;
+} 
+p{
+    color: blueviolet;
+    padding-left: 50px;
+    padding-top: 50px;
+    background: wheat;
+    border-radius: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+*{
+    background-color: rgb(211, 135, 216);
+}
+

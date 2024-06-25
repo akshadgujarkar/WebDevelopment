@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           /* position:- property  are static by default
+           relative , absoulte fixed; */
+        }
+        .box{
+            background-color: red;
+            width: 20vw;
+            height: 20vh;
+            margin: 5px;
+        }
+        #box1{
+            position: static;
+
+        }
+        #box2{
+          position: relative;
+          top:0px;
+          left: 25%;
+          z-index: 1;
+
+        }
+        #box3{
+            position: absolute;
+            top: 45% ;
+            left: 50%;
+
+        }
+        #box4{
+            position: fixed;
+            top: 70%;
+            left: 74%;
+
+        }
+     
+
+    </style>
+</head>
+<body>
+    <header>Position property </header>
+    <main>
+        <section>
+          
+            <div id="box1" class="box">static </div>
+            <div id="box2" class="box">relative</div>
+            <div id="box3" class="box">absoulte</div>
+            <div id="box4" class="box">fixed</div>
+       
+
+      
+
+        </section>
+    </main>
+</body>
+</html>

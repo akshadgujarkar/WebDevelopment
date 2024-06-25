@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6316/6316109.png" type="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <title>Photo Gallery</title>
+    <style>
+        body {
+         
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+       
+    
+    background-color: #f5e0d8;
+    scroll-behavior: smooth;
+}
+
+
+
+.grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 10px;
+            max-width: 800px;
+            width: 100%;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-item {
+            overflow: hidden;
+            border-radius: 5px;
+            height: 100px; /* Set a fixed height to create rectangular blocks */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure images cover the entire container */
+            display: block;
+        }
+        .nav{
+            display: block;
+            color: aqua;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            background-color:black;
+            border-radius: 50px;
+            margin: 0;
+            padding: 0;
+            
+            
+            
+            
+
+           
+        }
+        .footer{
+
+            text-align: center;
+        }
+        #email{
+            color: rgb(221, 33, 0);
+        }
+        #imgg
+        {
+            width: 20px;
+            height: 20px;
+        }
+        header {
+            font-size: x-large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            
+            
+        }
+      
+
+    </style>
+</head>
+<body>
+    <header> <strong><big>PHOTO Gallery</big></strong>
+    <div>
+    <nav class="nav"> 
+        <div id="dnav">
+        <a  href="#home" style="text-decoration: none;">Home</a>
+        <a  href="#gallery" style="text-decoration: none;">Gallery </a>
+        <a  href="#about" style="text-decoration: none;">About</a>
+        <a  href="#contact" style="text-decoration: none;">Contact</a>
+    </div>
+    </nav>
+    </div>
+    <br>
+    </header>
+      <main>
+    <section>
+        <div>
+            <big>Discription about image gallery website</big>
+            <p>A beautifully designed <b>photo gallery</b> website to display a collection of images. This project will allow users to view a curated selection of photographs, with options to see larger versions and detailed descriptions of each image</p>
+            <img src="https://getwallpapers.com/wallpaper/full/6/5/2/194192.jpg" width="600px" border="2" alt="img">
+            <hr>
+            
+            <ul><li><strong><b><i><u><big id="about"> Nature image significance</big></u></i></b> </strong></li></ul>
+        </div>
+        <article >
+            <b><strong><p>Nature images hold significant value in our lives, reflecting the beauty, complexity, and interconnectedness of the natural world. These images can evoke a sense of awe and inspiration, reminding us of the planet's diversity and the delicate balance of ecosystems. They often serve as a powerful tool for education, raising awareness about environmental issues and the importance of conservation.</p>
+
+                <p>Photographs of landscapes, wildlife, and natural phenomena can also promote mental well-being, offering a form of escapism and a reminder of the tranquility and peace found in nature. They encourage people to appreciate and protect the environment, fostering a deeper connection to the natural world and a greater sense of responsibility towards its preservation. In essence, nature images are a visual celebration of life on Earth, capturing moments that highlight the beauty and fragility of our planet.</p>
+            </strong></b>
+        </article>
+
+       
+    </section>
+<hr>
+    <section id="gallery">
+        <strong><big>Gallery</big></strong>
+        <div class="grid-container">
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6lP197yHOSamm6VkIwS-eJbpigIPb5TOK4bO29wWvxKVwHhX48_3Ac5nAHUB8kvG11s&usqp=CAU" target="_blank">
+
+                <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6lP197yHOSamm6VkIwS-eJbpigIPb5TOK4bO29wWvxKVwHhX48_3Ac5nAHUB8kvG11s&usqp=CAU" alt="Image 1"></div>
+
+            </a>
+            
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT97y8tdkdwS-LSclpn-FIuZwBUn1T2mGFKPALFK4D_g&s" alt="Image 2"></div>
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_rxHedSU0o9FOLuvUqH5X__sQ1KGdtr-4FOknMfylX7-wLDmuhYkTFVXWqCRyuZPUXM&usqp=CAU" alt="Image 3"></div>
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgzopDGkFWUDnLhqHa0WJ5LD0uNxPEy_OSawkqHriYxw8HeH_JAVVtTxGss1hhYP0G7Cw&usqp=CAU" alt="Image 4"></div>
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEltsgHc5FckQGkoxRvwwLgVAJMT4u425WpCoixe6n4nZDH5F6xV8CF25TQZBRKSQ_WPI&usqp=CAU" alt="Image 5"></div>
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaY-o4bEjsx5Qip7Yx5dGZzA9e8vOtYAmyUbP_iUCdJqkXovDe9AB9vOx8YfRZD9kpTKI&usqp=CAU" alt="Image 6"></div>
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWrloas1XhYp1xx4kvuH5NL-R1iviNvIuYzxXeKnijCO2MIzmhEJUwLxC67bMDOuJVR9I&usqp=CAU" alt="image 7"></div>
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo1vN7iNDv9r4wuXCuEycEScdc4ljVu3ff5_yG1qLX8Q&s" alt="image 8"></div>
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4o_4A7lfW_xPmP4EJh2CKr8r2YQ341OgZ8XErmKE0AWCw0LaRJhq3JRs2jXxQuWdvLvA&usqp=CAU" alt="image 9"></div>
+            <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRel_Au0szhR--b3zl2LpQYXD-L4KHK5elbDbOTT9nHYVhytAzvJAz5Pu7XQ-B0bZ7d5Ok&usqp=CAU" alt="image 10"></div>
+        </div>
+        <div>
+            <p><i><big>This Images</big> you are seen above are all best images that I collected from google images
+            . After observeing these images i found that these images make you claim , give the peace for a while in This
+        running life compition. </i></p>
+        </div>
+    </section>
+    <hr>
+    <br>
+
+
+
+
+
+      </main>
+
+    <footer class="footer" id="contact">
+        <div> 
+            <p>Thanks for being with me till the end of the my first <strong>Image Gallery website</strong>
+                    <p><strong id="email">akshadgujarkar12@gmail.com</strong></p>
+            <p>Copyright @2024</p>
+            
+            
+        </div>
+    </footer>
+</body>
+</html>

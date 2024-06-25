@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2766/2766926.png">
+    
+    
+    <title>Job application</title>
+</head>
+<body>
+    <header><strong><big>Job Application Form</big></strong></header>
+    <hr>
+    <section>
+        <div>
+    <p class="paragraph">Thank you for your interest in working with us. Please check below for available job opportunites that meet your criteria and send your applicaiton by filling out the Job application Form  </p>
+        </div>
+    </section>
+    
+    <label for="name ">Name</label><br>
+    <input type="text" placeholder="First" id="name"><br>
+    <input type="text" placeholder="Last" id="name"><br><br>
+    <label for="email">Email</label><br>
+    <input type="text" placeholder="john.doe@example.com" id="email" required="true">
+    <br>
+    <br>
+    <label for="position">What position are you applying for?</label><br>
+    <select name="it" id="position">
+        <option value="none">-Select-</option>
+        <option value="php backend developer">Php Backend developer</option>
+        <option value="Senior PHP ">Senior Php team lead</option>
+        <option value="CTO">CTO</option>
+        <option value="CEO">CEO</option>
+        <option value="IT manager">IT manager</option>
+        <option value="Coach">Coach</option>
+    </select>
+
+    <br>
+    <br>
+    <label for="date">Available date</label><br>
+    <input type="date" id="date">
+    <br><br>
+    <label for="emp status">What is your current employee status?</label><br>
+    <input type="radio" id="Employed" value="Emplyed" name="status">
+    <label for="Employed">Emplyed</label><br>
+    <input type="radio" id="Self-emp" value="Self-emp" name="status">
+    <label for="Self-emp">Self-Employed</label><br>
+    <input type="radio" id="unemp" value="UnEmp" name="status">
+    <label for="unemp">Unemployed</label>
+    <br>
+    <input type="radio" value="student"  id="student"   name="status">
+    <label for="student">Student</label>
+
+    <br><br>
+    <label for="resume-link">Please provide your resume link  </label><br>
+    <input type="text " id="resume-link" placeholder="http://www.example.com/">
+    <br><br>
+    
+    <label for="resume">Please upload your resume </label><br>
+    <input type="file" id="resume" placeholder="Resume">
+
+    <br><br>
+    <label for="reference">Do you have references? (optional)</label><br>
+    <input type="text" id="reference" placeholder="First"><br>
+    <input type="text" id="reference" placeholder="Last">
+    <br><br>
+    <label for="ref-email">Reference email</label><br>
+    <input type="email" id="ref-email" placeholder="john.doe@example.com">
+    <br>
+    <br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Apply">
+
+
+ 
+  
+
+    
+</body>
+</html>

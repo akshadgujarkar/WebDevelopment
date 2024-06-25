@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 5</title>
+    <style>
+        header{
+            color: brown;
+            width: 200px;
+            height: 20px;
+            text-align: center;
+            word-spacing: 4px;
+            background-color: wheat;
+            border-radius: 25px;
+        }
+        .loading{
+            width: 100px;
+            height: 10px;
+            border: 1px solid cyan;
+            position: relative;
+            top: 40px;
+            left: 50px;
+            border-radius: 25px;
+            transition-property: all;
+            transition-duration: 3s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+        .bar{
+            background-color: #000;
+            height: 100%;
+            width: 50%;
+            border-radius: 25px;
+            animation-name: PG;
+            animation-duration: 4s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: 2;
+            animation-direction: normal;
+        }
+        @keyframes PG {
+            /* from{
+                width: 0%;
+
+            }
+            to{
+                width: 100%;
+            } */
+            0%{
+                width: 0%;
+            }
+            90%{ width: 90%;}
+            95%{ width:70%}
+
+            100%{width: 100%;
+              
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>Practice set 5</header>
+    <main>
+        <section>
+            <div class="loading">
+                <div class="bar">
+
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+</body>
+</html>

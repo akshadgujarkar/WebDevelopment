@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box,.box2,.box3,.box4,#translate,#skew{
+            height: 50px;
+            width: 50px;
+            border:2px solid;
+            box-sizing: border-box;
+            border-radius: 12%;
+            background-color: grey;
+            margin: 40px;
+            padding:2px;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            /* transform: rotate(45deg) ; */
+            transition: all;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in;
+            transition-delay: 0s;
+
+        }
+        .box:hover{
+            height: 51px;
+            width: 51px;
+            transform: rotate(360deg);
+            background-color: wheat;
+            
+        }
+        .box2:hover{
+            transform: rotate(90deg);
+          
+        }
+        .box3:hover{
+            transform: rotateX(45deg);
+        }
+        .box4:hover{
+            transform: rotateY(45deg);
+        }
+        #translate:hover{
+         transform: translate(-30px);
+         /*same as above function x , y z*/
+        }
+        #skew:hover{
+            transform: skew(-9deg);
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="box">Rotate 45</div>
+            <div class="box2">Rotate 90</div>
+            <div class="box3">x 45 deg</div>
+            <div class="box4">y 45 deg</div>
+
+        </section>
+        <section>
+            <div id="translate">
+                translate
+            </div>
+            <div id="skew">
+                skew
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

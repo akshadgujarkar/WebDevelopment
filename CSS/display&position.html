@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display and position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            margin: 5px;
+            text-align: center;
+            border-radius: 15px;
+            /* display: block;  by default block element next line */
+            display: inline;
+            display:inline-block;
+            
+        }
+        #box1{
+            text-overflow: ellipsis;
+           font-size: smaller;
+        }
+        #box2{
+            /* visibility: hidden; just can't se it but remains its presence  */
+            /* display: none;  remove box */
+           
+        }
+    
+    </style>
+</head>
+<body>
+    <header>Display and position</header>
+    <main>
+        <section>
+            <div id="box1" class="box">box1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, doloribus.
+            </div>
+            <div id="box2" class="box">box2</div>
+            <div id="box3" class="box">box3</div>
+            
+        </section>
+    </main>
+    
+</body>
+</html>
