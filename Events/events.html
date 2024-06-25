@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+        }
+
+        .box {
+            background-color: wheat;
+            width: 250px;
+            height: 200px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            cursor: pointer;
+
+            font-family: cursive;
+            font-size: xx-large;
+            color: hotpink;
+            position:relative;
+
+
+        }
+
+        b {
+            position: relative;
+            left: 20px;
+            top: 50px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    <script src="events.js" defer></script>
+</head>
+
+<body>
+    <h1 onclick="console.log('heading1 clicked')">Events</h1>
+    <div class="box">
+        <p>+</p>
+    </div>
+    <div class="container">
+
+    </div>
+
+    <b>This is bold text</b>
+
+
+</body>
+
+</html>
